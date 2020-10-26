@@ -1,0 +1,71 @@
+/* CSS Reset */
+* { margin: 0; padding: 0; }
+
+/* Basic Responsive Image */
+img {
+  width: 100%;
+  height: auto;
+}
+.three-columns {
+  width: 32%;
+  display: inline-block;
+}
+/* Responsive Images with Conditional Breakpoints  */
+
+.breakpoint { /* One column for smartphones */
+  max-width: 100%;
+  display: inline-block;
+}
+
+/* Full-width Responsive Image */
+.full {
+  width: 100%;
+}
+
+/* Demo Page Styles: Basic */
+body {
+  font: normal 400 18px/25px "Oxygen", sans-serif;
+  color: #FC2C1A;
+  background: #02347b;
+}
+/* Demo Page Styles: Typography */
+h1, h2, h3 {
+  font-weight: 700;
+}
+ 
+h1 {
+  margin: 10px auto 50px auto;
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+/* Demo Page Styles: Layout */
+.container {
+  position: relative;
+  width: 96%;
+  max-width: 1150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .container {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+section {
+  margin: 60px auto;
+}
+
+/* Demo Page Styles: Media Queries */
+@media (max-width: 400px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  
+}
